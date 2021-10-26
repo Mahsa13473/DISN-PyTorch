@@ -1,0 +1,17 @@
+lr: 1e-4
+batch_size: 1
+num_epochs: 50
+lr_step: 20
+phase: train
+im_size: 224
+
+val_interval: 2
+visualize_iter: 5
+use_cuda: True
+decay_rate: 0
+seed: 12138
+resume: True
+model_path:/Users/mahsa/Desktop/DISN/checkpoints/checkpoint_sdf_module_50.pth.tar
+exp_base_dir: ./results
+exp_dir: ./visualize
+output: ./final_output
