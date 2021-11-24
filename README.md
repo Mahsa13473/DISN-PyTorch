@@ -18,10 +18,9 @@ Original Paper: [Deep Implicit Surface Network for High-quality Single-view 3D R
 python get_dir.py
 
 # generate new obj file that can be used for compute SDF
-# tThis code will only save f and v values
+# This code will only save f and v values
 python generateObj.py
 
-python get_dir1.py
 
 # compute SDF value with VEGA and save output as text files
 # ../../utilities/computeDistanceField/computeDistanceField model_normalized.obj 256 256 256 -s 1 -m 1 -g 0.01 -o model_output.txt
