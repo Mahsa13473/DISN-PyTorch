@@ -21,7 +21,6 @@ python get_dir.py
 # This code will only save f and v values
 python generateObj.py
 
-
 # compute SDF value with VEGA and save output as text files
 # ../../utilities/computeDistanceField/computeDistanceField model_normalized.obj 256 256 256 -s 1 -m 1 -g 0.01 -o model_output.txt
 
